@@ -26,8 +26,8 @@ def main():
     api_key = os.getenv("api_key")
     speech_generator = SpeechGenerator(api_key)
 
-    text = "Hi Everyone, This is Theophilus Siameh"
-    speech_file_path = "speech.mp3"
+    text = "Hi Everyone, This is Donald Trump. I'm coming back to clean up the mess!"
+    speech_file_path = "speech2.mp3"
 
     speech_generator.generate_speech(text, speech_file_path)
     print("----Success----")
